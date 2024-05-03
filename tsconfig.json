@@ -1,0 +1,16 @@
+{
+	"extends": "@tsconfig/strictest",
+	"compilerOptions": {
+		"allowJs": true,
+		"esModuleInterop": true,
+		"forceConsistentCasingInFileNames": true,
+		"lib": ["esnext", "dom", "dom.iterable"],
+		"module": "preserve",
+		"moduleDetection": "force",
+		"noEmit": true,
+		"noPropertyAccessFromIndexSignature": false,
+		"resolveJsonModule": true,
+		"target": "esnext",
+		"verbatimModuleSyntax": true
+	}
+}

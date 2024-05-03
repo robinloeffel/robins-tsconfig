@@ -1,0 +1,24 @@
+{
+	"name": "robins-tsconfig",
+	"version": "1.0.0",
+	"description": "this is how i like my typescript projects. you might like it too. 🫱🏼‍🫲🏽",
+	"keywords": [
+		"tsconfig"
+	],
+	"homepage": "https://github.com/robinloeffel/robins-tsconfig",
+	"repository": "https://github.com/robinloeffel/robins-tsconfig",
+	"license": "MIT",
+	"author": "Robin Löffel",
+	"main": "tsconfig.json",
+	"files": [
+		"tsconfig.json"
+	],
+	"dependencies": {
+		"@tsconfig/strictest": "^2.0.5"
+	},
+	"devDependencies": {
+		"eslint": "^8.57.0",
+		"eslint-config-sweet": "^20.0.0",
+		"eslint-define-config": "^2.1.0"
+	}
+}
