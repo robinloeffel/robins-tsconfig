@@ -24,14 +24,11 @@ npm i -D robins-tsconfig
 
 ## good to know
 
-- the config extends from [`@tsconfig/strictest`](https://www.npmjs.com/package/@tsconfig/strictest)
-- i borrowed heavily from the [tsconfig cheat sheet](https://www.totaltypescript.com/tsconfig-cheat-sheet) by [matt pocock](https://github.com/mattpocock)
+- i borrowed heavily from [`@tsconfig/strictest`](https://npmx.dev/package/@tsconfig/strictest) and the [tsconfig cheat sheet](https://www.totaltypescript.com/tsconfig-cheat-sheet) by [matt pocock](https://github.com/mattpocock)
 - you'll have to set [`include`](https://www.typescriptlang.org/tsconfig/#include) and [`exclude`](https://www.typescriptlang.org/tsconfig/#exclude) yourself
 - it assumes you're building for the browser; change [`lib`](https://www.typescriptlang.org/tsconfig/#lib) if you're not
 - if you want to compile via [`tsc`](https://www.typescriptlang.org/docs/handbook/compiler-options.html), override [`noEmit`](https://www.typescriptlang.org/tsconfig/#noEmit) and [`outDir`](https://www.typescriptlang.org/tsconfig/#outDir)
 
-you can check out the full config [here](./tsconfig.json).
-
 ## license
 
-[mit](./license.txt)
+[mit](https://choosealicense.com/licenses/mit/)

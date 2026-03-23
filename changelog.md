@@ -1,5 +1,25 @@
 # changelog
 
+## 4.0.0 (2026-03-23)
+
+- remove `@tsconfig/strictest` dependency
+- add `allowUnreachableCode`
+- add `allowUnusedLabels`
+- add `esModuleInterop`
+- add `exactOptionalPropertyTypes`
+- add `isolatedModules`
+- add `noFallthroughCasesInSwitch`
+- add `noImplicitOverride`
+- add `noImplicitReturns`
+- add `noUncheckedIndexedAccess`
+- add `noUnusedLocals`
+- add `noUnusedParameters`
+- add `skipLibCheck`
+- remove `libReplacement`
+- remove `noPropertyAccessFromIndexSignature`
+- remove `noUncheckedSideEffectImports`
+- update typescript peer dependency to `>=6`
+
 ## 3.0.0 (2026-02-07)
 
 - add `checkJs`

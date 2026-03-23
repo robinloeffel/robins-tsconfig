@@ -1,26 +1,20 @@
 {
   "name": "robins-tsconfig",
-  "version": "3.0.0",
+  "version": "4.0.0",
   "description": "this is how i like my typescript projects. you might like it too. 🫱🏼‍🫲🏽",
   "keywords": [
     "tsconfig"
   ],
-  "homepage": "https://github.com/robinloeffel/robins-tsconfig",
   "repository": "https://github.com/robinloeffel/robins-tsconfig",
   "license": "MIT",
   "author": "Robin Löffel",
-  "type": "module",
-  "main": "tsconfig.json",
   "files": [
     "tsconfig.json"
   ],
-  "dependencies": {
-    "@tsconfig/strictest": "^2.0.8"
-  },
   "devDependencies": {
-    "typescript": "^5.9.3"
+    "typescript": "6.0.2"
   },
   "peerDependencies": {
-    "typescript": ">=5.8"
+    "typescript": ">=6"
   }
 }
