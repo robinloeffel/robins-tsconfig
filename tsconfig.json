@@ -1,13 +1,10 @@
 {
   "compilerOptions": {
-    "allowJs": true,
     "allowUnreachableCode": false,
     "allowUnusedLabels": false,
     "checkJs": true,
     "erasableSyntaxOnly": true,
-    "esModuleInterop": true,
     "exactOptionalPropertyTypes": true,
-    "isolatedModules": true,
     "lib": ["esnext", "dom"],
     "module": "preserve",
     "moduleDetection": "force",
@@ -16,12 +13,13 @@
     "noFallthroughCasesInSwitch": true,
     "noImplicitOverride": true,
     "noImplicitReturns": true,
+    "noPropertyAccessFromIndexSignature": true,
     "noUncheckedIndexedAccess": true,
     "noUnusedLocals": true,
     "noUnusedParameters": true,
-    "pretty": true,
     "resolveJsonModule": true,
     "skipLibCheck": true,
+    "target": "esnext",
     "verbatimModuleSyntax": true
   }
 }

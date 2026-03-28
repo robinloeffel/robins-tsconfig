@@ -1,5 +1,14 @@
 # changelog
 
+## 5.0.0 (2026-03-28)
+
+- add explicit `target`
+- add `noPropertyAccessFromIndexSignature`
+- remove `pretty` (is default)
+- remove `allowJs` (set implicitly)
+- remove `esModuleInterop` (set implicitly)
+- remove `isolatedModules` (set implicitly)
+
 ## 4.0.0 (2026-03-23)
 
 - remove `@tsconfig/strictest` dependency
